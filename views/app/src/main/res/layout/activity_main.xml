@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Android Dev"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:layout_weight="1"
                     />
                 <TextView
@@ -89,7 +89,7 @@
                     android:gravity="center_horizontal"
                     android:text="iOS Dev"
                     android:layout_weight="1"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     />
             </LinearLayout>
             <TextView
