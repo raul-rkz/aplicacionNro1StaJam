@@ -11,27 +11,216 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="140dp"
-                android:layout_height="50dp"
-                android:text="Apps y Juegos"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:textColor="@android:color/background_light" />
-
-            <TextView
-                android:layout_width="140dp"
-                android:layout_height="50dp"
-                android:text="Peliculas, Música y Libros"
-                android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@android:color/holo_green_dark">
+                <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="45dp"
-                android:textColor="@android:color/background_light" />
+                android:src="@drawable/titulo"/>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="Apps y Juegos"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:text="Peliculas, Música y Libros"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="45dp"
+                        android:textColor="@android:color/background_light" />
 
 
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+
+            <Button
+                android:text="Top Apps"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:id="@+id/button"
+                android:background="@android:color/holo_green_dark"/>
+            <Button
+                android:text="Juegos"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_green_dark"/>
+            <Button
+                android:text="Categorias"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/background_light"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:background="@android:color/holo_green_dark"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@android:color/black"
+                    android:text="Recomendadas"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:text="Más"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@android:color/black"
+                    android:text="Editores de Fotos"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:text="Más"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@android:color/black"
+                    android:text="Música y Audio"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:text="Más"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#dddddd">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps8"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apps9"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"/>
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
